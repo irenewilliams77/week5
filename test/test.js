@@ -1,7 +1,10 @@
-var assert =('assert');
-var assert= require ('../triangle.js');
+var assert = require('assert');
+var tArea = require('../triangle.js');
 
-describe('triangle', function(){
-    it('correctly calculates its area', function (){
-    assert.equal(t.area()).to.equal(25);
-)});
+
+    describe('tArea', function(){
+        it('should return 12.5 when the values 5,5 are passed in', function(){
+            assert.equal(tArea(5,5),12.5);
+        });
+    });
+
