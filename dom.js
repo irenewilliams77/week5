@@ -12,7 +12,8 @@ function myFuction(){
     getElementsByClassName("three")[1].innerHTML = "third";
 }
 
-document.getElementsById("button").addEventListener("click", displayDate);
-function displayDate(){
-    document.getElementsById("pretty").innerHTML = Date();
+document.getElementById("why").addEventListener("click", mydude);
+
+ function mydude() {
+    document.getElementById("pretty").innerHTML = "Hello y'all";
 }
