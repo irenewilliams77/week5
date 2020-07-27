@@ -1,56 +1,10 @@
 body{ 
     text-align: center; 
-    background: #dae4e2; 
+    background: cornsilk; 
   font-family: sans-serif; 
   font-weight: 100; 
-  margin: 0;
+  color: blueviolet;
+  padding: 100px;
+  border: crimson dashed 3rem;
+  font-size: 20px;
 } 
-h1{ 
-  font-family: fantasy;
-  color: rgb(11, 25, 224); 
-  font-weight: 100; 
-  font-size: 60px; 
-  margin: 40px 0px 20px; 
-} 
- #display{ 
-    font-family: sans-serif; 
-    color: #fff; 
-    display: inline-block; 
-    font-weight: 100; 
-    text-align: center; 
-    font-size: 30px; 
-    background: #00BF96;
-    border-radius: 5%;
-    padding: 10px;
-    margin-top: 50px;
-} 
-#days{
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
-    background: yellowgreen;
-    border-radius: 3px;  
-    padding: 10px;
-}
-#hours{
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
-    background: yellowgreen;
-    padding: 10px;
-    border-radius: 3px;
-}
-#minutes{
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
-    background: yellowgreen;
-    padding: 10px;
-}
-#seconds{
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
-    background: yellowgreen;
-    padding: 10px;
-}
