@@ -1,7 +1,21 @@
 #container {
-    background-origin: padding-box;
-    border: crimson 1rem;
-    background-position: 0vmax;
-    text-align: center;
-    
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(221, 62, 218);
+    padding: 10px;
+  text-align:center;
+  background-color: ivory;
+
+  
+}
+body{
+    background-color: lightblue;
+}
+.choice{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(221, 62, 218);
+    padding: 10px;
+  text-align:center;
+  font-weight: bold;
 }
