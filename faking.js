@@ -7,11 +7,11 @@
     var randomImage= faker.image.avatar();
  
 function Card(){
-    document.getElementById("name").innerHTML = name;
-    document.getElementById("email").innerHTML = email;
-    document.getElementById("address").innerHTML = address;
-    document.getElementById("bio").innerHTML = bio;
-    document.getElementById("image").src = image
+    document.getElementById("name").innerHTML = randomName;
+    document.getElementById("email").innerHTML = randomEmail;
+    document.getElementById("address").innerHTML = randomAddress;
+    document.getElementById("bio").innerHTML = randomBio;
+    document.getElementById("image").src = randomImage
 }
 
 Card();
