@@ -10,7 +10,7 @@ document.getElementById("birthday").innerHTML = days + "Days "
 + hours + "Hours " + minutes + "Minutes " + seconds + "Seconds "; 
     if (t < 0) { 
         clearInterval(x); 
-        document.getElementById("birthday").innerHTML = "EXPIRED"; 
+        document.getElementById("birthday").innerHTML = "Happy Birthday"; 
     } 
 }, 1000); 
 
